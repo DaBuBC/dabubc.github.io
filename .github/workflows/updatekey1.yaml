@@ -10,10 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Carica workspace
-        uses: actions/load-workspace@v1
-
       - name: Esegui script Python
         run: python script.py
