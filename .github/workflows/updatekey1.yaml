@@ -1,4 +1,4 @@
-name: Esegui script Python con moduli
+name: update-key
 
 on:
   push:
