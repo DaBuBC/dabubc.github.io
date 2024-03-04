@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Vedi file
+        run: ls
       - name: Esegui script Python
         run: python script.py
